@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Mercadito | Almacén de vinos y cervezas</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <a href="./index.html">
+                <img class="logo" src="./assets/el-mercadito-logo.png" alt="Logo de El Mercadito">
+            </a>
+        </figure>
+        <h1>El Mercadito</h1>
+        <nav>
+            <ul>
+                <li ><a class="navegacion-principal" href="./index.html">Inicio</a></li>
+                <li ><a class="navegacion-principal" href="./pages/sobre-mi.html">Sobre nosotros</a></li>
+                <li ><a class="navegacion-principal" href="./pages/servicios.html">Nuestros servicios</a></li>
+                <li ><a class="navegacion-principal" href="./pages/proyectos.html">Catálogo</a></li>
+                <li ><a class="navegacion-principal" href="./pages/contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="introduccion">
+        <h2>Almacén de Vinos y Cervezas</h2>
+            <p>Tu parada obligada para encontrar las mejores bebidas y acompañamientos. En El Mercadito somos especialistas en acercarte esa botella especial, la cerveza bien fría para el fin de semana o los aperitivos perfectos para tu próxima picada. Ya sea que estés planeando una cena romántica, una juntada con amigos o simplemente quieras darte un gusto, tenemos exactamente lo que buscás.¡Explorá nuestra web y descubrí todo lo que tenemos para ofrecerte!
+            </p>
+            <figure>
+                <img class="imagen-intro" src="./assets/vino-cerveza.png" alt="Vino Angelica Zapata y cerveza Heineken">
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p class="p-footer">&copy; <span id="year"></span> Todos los derechos reservados.</p> 
+    </footer>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

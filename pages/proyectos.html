@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Mercadito | Catálogo</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <a href="../index.html">
+                <img class="logo" src="../assets/el-mercadito-logo.png" alt="Logo de El Mercadito">
+            </a>
+        </figure>
+        <h1>El Mercadito</h1>
+        <nav>
+            <ul>
+                <li ><a class="navegacion-principal" href="../index.html">Inicio</a></li>
+                <li ><a class="navegacion-principal" href="../pages/sobre-mi.html">Sobre nosotros</a></li>
+                <li ><a class="navegacion-principal" href="../pages/servicios.html">Nuestros servicios</a></li>
+                <li ><a class="navegacion-principal" href="../pages/proyectos.html">Catálogo</a></li>
+                <li ><a class="navegacion-principal" href="../pages/contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="introduccion">
+            <h2>Nuestro Catálogo</h2>
+            <p>Navegá por nuestras categorías y encontrá una amplia variedad de opciones para todos los gustos y presupuestos.
+                <ul>
+                    <li><strong>🍷 VINOS</strong> Tintos robustos, blancos frescos, rosados sutiles y espumantes para celebrar. Contamos con etiquetas de las bodegas más reconocidas y de vinos boutique para que descubras nuevos sabores.</li>
+                    <li><strong>🍺 CERVEZAS</strong> Las rubias, rojas y negras que ya conocés, junto con una excelente selección de cervezas artesanales (IPA, APA, Stout y más) para los paladares más exigentes.</li>
+                    <li><strong>🍹 APERITIVOS Y DESTILADOS</strong> Fernet, vermut, gin, vodka y todo lo necesario para que te conviertas en el bartender de tu propia casa</li>
+                    <li><strong>🥤 GASEOSAS Y SNACKS</strong> El complemento ideal. Refrescos, aguas tónicas, jugos y todo tipo de aperitivos salados para acompañar tu bebida favorita.</li>
+                </ul>
+            </p>
+            <figure>
+                <img class="imagen-intro" src="../assets/imagen-intro-catalogo.png" alt="Variedad de vinos y cervezas">
+            </figure>
+        </section>
+    </main>
+
+        <footer>
+        <p class="p-footer">&copy; <span id="year"></span> Todos los derechos reservados.</p> 
+    </footer>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

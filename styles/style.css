@@ -1,0 +1,71 @@
+/* Fuentes */
+/* Parrafos */
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lustria&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Libertinus Serif", serif; */
+
+/* Titulos */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+/* font-family: "Merriweather", serif; */
+
+/* Paleta de colores */
+/* Tinto Malbec (#5C162E) */
+/* Ámbar Tostado (#D98324) */
+/*Madera de Roble (#8B5A2B)  */
+/* Beige Pergamino (#F4EBD9) */
+/* Gris Carbón (#2B2B2B) */
+
+/* Generales */
+body{margin:0;
+    padding:0;
+    font-family:"Libertinus Serif", serif;
+    line-height: 1.5;
+background:#F4EBD9;
+
+}
+
+/* Header */
+.navegacion-principal{
+    font-family: "Merriweather", serif;
+    font-size: 1.7rem;
+font-weight: 500;
+list-style: none;
+text-decoration:underline;
+color:#8B5A2B;
+}
+
+.logo{width:20vh;
+height:20vh;}
+h1{
+    font-family:"Merriweather", serif;
+font-size: 2.5rem;
+font-weight:800;
+text-decoration:none;
+color:#5C162E;
+}
+
+/* Main */
+h2, h3, h4, h5, h6{
+    font-family:"Merriweather", serif;;
+    font-size: 2.2rem;
+font-weight: 700;
+text-decoration:wavy;
+color:#5C162E
+}
+
+p{font-size: 1.5rem;
+font-weight: 400;
+color:#2B2B2B}
+
+.introduccion{font-size: 1.5rem;
+font-weight: 400;}
+
+.imagen-intro{width:150vh;
+height:auto;}
+
+li{color:#2B2B2B}
+
+strong{color:#5C162E}
+
+
+/* Footer */
+.p-footer{color:#8B5A2B}
