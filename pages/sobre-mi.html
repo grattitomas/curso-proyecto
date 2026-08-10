@@ -8,38 +8,61 @@
 </head>
 <body>
     <header>
-        <figure>
+         <figure>
             <a href="../index.html">
                 <img class="logo" src="../assets/el-mercadito-logo.png" alt="Logo de El Mercadito">
             </a>
         </figure>
+
         <h1>El Mercadito</h1>
+
         <nav>
-            <ul>
-                <li ><a class="navegacion-principal" href="../index.html">Inicio</a></li>
-                <li ><a class="navegacion-principal" href="../pages/sobre-mi.html">Sobre nosotros</a></li>
-                <li ><a class="navegacion-principal" href="../pages/servicios.html">Nuestros servicios</a></li>
-                <li ><a class="navegacion-principal" href="../pages/proyectos.html">Catálogo</a></li>
-                <li ><a class="navegacion-principal" href="../pages/contacto.html">Contactanos</a></li>
+            <ul class="navegacion-principal">
+                 
+                 <li class="item-nav"><a class="a-nav"  href="../pages/sobre-mi.html">Sobre nosotros</a></li>
+                 <li class="item-nav"><a class="a-nav"  href="../pages/servicios.html">Nuestros servicios</a></li>
+                 <li class="item-nav"><a class="a-nav"  href="../pages/proyectos.html">Catálogo</a></li>
+                 <li class="item-nav"><a class="a-nav"  href="../pages/contacto.html">Contactanos</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="introduccion">
+            <section class="texto-intro">
         <h2>Pasión por los buenos momentos</h2>
             <p>El Mercadito nació de una idea muy simple: los mejores momentos de la vida siempre se acompañan con algo rico para tomar y compartir. Somos más que un simple almacén de vinos y cervezas; somos ese rincón de tu barrio (y ahora también digital) donde empieza tu previa, tu cena familiar o tu brindis más especial.
 
                Nos enorgullece ofrecer una selección cuidadosamente elegida de etiquetas, desde las bodegas más tradicionales hasta opciones frescas y novedosas, sin olvidarnos de los clásicos de siempre. Nuestro objetivo es brindarte variedad, calidad y, sobre todo, la mejor atención, para que siempre te lleves una sonrisa y la bebida perfecta.
             </p>
+            </section>
             <figure>
                 <img class="imagen-intro" src="../assets/imagen-sobrenosotros-intro.png" alt="Tres personas tomando vino y cerveza">
             </figure>
         </section>
     </main>
-
-        <footer>
-        <p class="p-footer">&copy; <span id="year"></span> Todos los derechos reservados.</p> 
+<footer>
+        <section class="fut">
+        <p>&copy; <span id="year"></span> Todos los derechos reservados.</p> 
+        <ul class="footer-nav">
+            <li class="item-nav-foot">
+                <a target="_blank" href="#">
+                    <img class="img-footer" src="../assets/whatsapp.png" alt="logo de Whatsapp">
+                </a>
+            </li>
+            <li class="item-nav-foot">
+                <a target="_blank" href="#">
+                    <img class="img-footer" src="../assets/instagram.png" alt="logo de Instagram">
+                </a>
+            </li>
+            <li class="item-nav-foot">
+                <a target="_blank" href="#">
+                    <img class="img-footer" src="../assets/facebook.png" alt="logo de Facebook">
+                </a>
+            </li>                        
+        </ul>
+        </section>
     </footer>
+
 <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 </script>

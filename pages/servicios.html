@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+          
         <figure>
             <a href="../index.html">
                 <img class="logo" src="../assets/el-mercadito-logo.png" alt="Logo de El Mercadito">
@@ -15,34 +16,52 @@
         </figure>
         <h1>El Mercadito</h1>
         <nav>
-            <ul>
-                <li ><a class="navegacion-principal" href="../index.html">Inicio</a></li>
-                <li ><a class="navegacion-principal" href="../pages/sobre-mi.html">Sobre nosotros</a></li>
-                <li ><a class="navegacion-principal" href="../pages/servicios.html">Nuestros servicios</a></li>
-                <li ><a class="navegacion-principal" href="../pages/proyectos.html">Catálogo</a></li>
-                <li ><a class="navegacion-principal" href="../pages/contacto.html">Contactanos</a></li>
+            <ul class="navegacion-principal">
+                 <li class="item-nav"><a class="a-nav"  href="../pages/sobre-mi.html">Sobre nosotros</a></li>
+                 <li class="item-nav"><a class="a-nav"  href="../pages/servicios.html">Nuestros servicios</a></li>
+                 <li class="item-nav"><a class="a-nav"  href="../pages/proyectos.html">Catálogo</a></li>
+                 <li class="item-nav"><a class="a-nav"  href="../pages/contacto.html">Contactanos</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="introduccion">
+        <section class="texto-intro">
             <h2>¿Qué te ofrecemos en El Mercadito?</h2>
-            <p>No solo vendemos bebidas; queremos que tu experiencia de compra sea excelente. Por eso, te ofrecemos los siguientes servicios:
+            <p>No solo vendemos bebidas; queremos que tu experiencia de compra sea excelente. Por eso, te ofrecemos los siguientes servicios:</p>
                 <ul>
                     <li><strong>ASESORAMIENTO PERSONALIZADO </strong> ¿No sabés qué vino marida mejor con tu cena o qué cerveza artesanal probar hoy? Preguntanos, ¡nos encanta recomendarte lo mejor!</li>
                     <li><strong>BEBIDAS FRÍAS LISTAS PARA LLEVAR </strong> Sabemos que a veces la sed no puede esperar. Tenemos una gran selección de cervezas, gaseosas y espumantes en heladera.</li>
                     <li><strong>VENTA PARA EVENTOS </strong> Casamientos, cumpleaños, despedidas o reuniones de oficina. Armamos presupuestos a medida para que no te falte (ni te sobre) nada.</li>
                     <li><strong>TODO PARA TU PICADA </strong> Porque de bebidas no se vive únicamente, contamos con una variedad de snacks, papas, maníes y conservas para armar la picada perfecta en un solo lugar.</li>
                 </ul>
-                <figure>
+        </section>
+            <figure>
                 <img class="imagen-intro" src="../assets/imagen-intro-servicios.png" alt="Empleado de El Mercadito orientando a una señora">
-            </figure>
-            </p>
+            </figure>  
         </section>
     </main>
-
-        <footer>
-        <p class="p-footer">&copy; <span id="year"></span> Todos los derechos reservados.</p> 
+<footer>
+        <section class="fut">
+        <p>&copy; <span id="year"></span> Todos los derechos reservados.</p> 
+        <ul class="footer-nav">
+            <li class="item-nav-foot">
+                <a target="_blank" href="#">
+                    <img class="img-footer" src="../assets/whatsapp.png" alt="logo de Whatsapp">
+                </a>
+            </li>
+            <li class="item-nav-foot">
+                <a target="_blank" href="#">
+                    <img class="img-footer" src="../assets/instagram.png" alt="logo de Instagram">
+                </a>
+            </li>
+            <li class="item-nav-foot">
+                <a target="_blank" href="#">
+                    <img class="img-footer" src="../assets/facebook.png" alt="logo de Facebook">
+                </a>
+            </li>                        
+        </ul>
+        </section>
     </footer>
 <script>
     document.getElementById("year").textContent = new Date().getFullYear();
