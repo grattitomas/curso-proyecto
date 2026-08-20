@@ -98,7 +98,7 @@ h1{
 }
 
 @media(min-width:768px){
-    header{grid-template-columns:auto 1fr auto;
+    header{grid-template-columns:auto 1fr 2fr;
     grid-template-rows:1fr;
     grid-template-areas:
     "logo titulo navbar"}
@@ -109,19 +109,22 @@ h1{
 }
 
 @media(min-width:1024px){
-    header{grid-template-columns:auto 1fr auto;
-    grid-template-rows:1fr;
-    grid-template-areas:
-    "logo titulo navbar"}
+    header{
+        width:100%;
+        grid-template-columns:auto 1fr 2fr;
+        grid-template-rows:1fr;
+        grid-template-areas:
+        "logo titulo navbar"}
     .logo{
-        width: 8rem;
+        width: 6rem;
     }
     h1{
-        font-size: 2.8rem;
+        width: auto;
+        font-size: 2.5rem;
     }
     .item-nav{
         font-size: 1.3rem;
-        padding: 10px;
+        
     }
 }
 /* Fin header */
