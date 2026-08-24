@@ -4,45 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Mercadito | Catálogo</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <!-- BOOTSTRAP -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <link rel="stylesheet" href="../styles/style.css">
+
 </head>
 <body>
     <header>
-          
-        <figure>
-            <a href="../index.html">
-                <img class="logo" src="../assets/el-mercadito-logo.png" alt="Logo de El Mercadito">
-            </a>
-        </figure>
-        <h1>El Mercadito</h1>
-         
-        <nav class="navegacion-principal">
-            <ul>
-                 <li class="item-nav"><a class="a-nav"  href="../pages/sobre-mi.html">Nosotros</a></li>
-                 <li class="item-nav"><a class="a-nav"  href="../pages/servicios.html">Servicios</a></li>
-                 <li class="item-nav"><a class="a-nav"  href="../pages/proyectos.html">Catálogo</a></li>
-                 <li class="item-nav"><a class="a-nav"  href="../pages/contacto.html">Contactanos</a></li>
-            </ul>
-        </nav>
+        <!-- NAVBAR BOOTSTRAP -->
+<nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../assets/el-mercadito-logo.png" alt="Logo" width="80" height="70" class="d-inline-block align-text-end">
+      El Mercadito
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="../index.html">Inicio</a>
+        <a class="nav-link" href="./sobre-mi.html">Nosotros</a>
+        <a class="nav-link" href="./servicios.html">Servicios</a>
+        <a class="nav-link" href="#">Catálogo</a>
+        <a class="nav-link" href="./contacto.html">Contacto</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- NAVBAR BOOTSTRAP -->
     </header>
     <main>
-        <section class="introduccion">
+        <div class="introduccion">
             <section class="texto-intro">
             <h2>Nuestro Catálogo</h2>
             <p>Navegá por nuestras categorías y encontrá una amplia variedad de opciones para todos los gustos y presupuestos.</p>
-                <ul>
-                    <li><strong>VINOS</strong> Tintos robustos, blancos frescos, rosados sutiles y espumantes para celebrar. Contamos con etiquetas de las bodegas más reconocidas y de vinos boutique para que descubras nuevos sabores.</li>
-                    <li><strong>CERVEZAS</strong> Las rubias, rojas y negras que ya conocés, junto con una excelente selección de cervezas artesanales (IPA, APA, Stout y más) para los paladares más exigentes.</li>
-                    <li><strong>APERITIVOS Y DESTILADOS</strong> Fernet, vermut, gin, vodka y todo lo necesario para que te conviertas en el bartender de tu propia casa</li>
-                    <li><strong>GASEOSAS Y SNACKS</strong> El complemento ideal. Refrescos, aguas tónicas, jugos y todo tipo de aperitivos salados para acompañar tu bebida favorita.</li>
-                </ul>
             </section>
             <section class="imagenes-intro">
-            <figure>
-                <img class="imagen-intro" src="../assets/imagen-intro-catalogo.png" alt="Variedad de vinos y cervezas">
-            </figure>
             </section>
-        </section>
+        </div>
+        <!-- CARDS BOOTSTRAP -->
+        <div class="card-group">
+  <div class="card card-wine">
+    <a href="">
+    <img src="../assets/wine-catalogo.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">VINOS</h5>
+      <p class="card-text">Los mejores vinos de Mendoza, Salta y la Patagonia argentina.</p>
+      <p class="card-text">Tintos, blancos, rosados y espumantes.</p>
+    </div>
+    </a>
+  </div>
+  <div class="card card-beer">
+    <a href="">
+    <img src="../assets/beer-catalogo.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">CERVEZAS</h5>
+      <p class="card-text">Cervezas industriales y artesanales.</p>
+      <p class="card-text">Rubias, rojas, negras, IPA, APA.</p>
+    </div>
+    </a>
+  </div>
+  <div class="card card-aperitivos">
+    <a href="">
+    <img src="../assets/aperitivos-catalogo.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">APERITIVOS, DESTILADOS Y LICORES</h5>
+      <p class="card-text">Todo tipo de bebidas blancas, espirituosas y con bases aromáticas.</p>
+      <p class="card-text">Fernet, Gin, Vodka y más.</p>
+    </div>
+    </a>
+  </div>
+</div>
+<!-- CARDS BOOTSTRAP -->
     </main>
 
 <footer>
@@ -70,5 +104,7 @@
 <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 </script>
+<!-- BOOTSTRAP -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
